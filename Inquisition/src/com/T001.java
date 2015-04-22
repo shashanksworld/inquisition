@@ -1,5 +1,7 @@
 package com;
 
+import java.util.Arrays;
+
 
 /*Problem 1: Given an increasingly sorted array and a number s, please find two numbers whose sum is s.
  *  If there are multiple pairs with sum s, just output any one of them.
@@ -56,6 +58,12 @@ public class T001 {
 			else
 				j--;
 		}
+	}
+	
+	public static void checkZeroSum()
+	{
+		int a[]={-3,-4,-9,1,2,4,5,7,11,15};
+		Arrays.sort(a);
 	}
 
 }
