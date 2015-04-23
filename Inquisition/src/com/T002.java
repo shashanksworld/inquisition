@@ -30,7 +30,6 @@ public class T002 {
 			method1(a,b);
 			//method2(a, b);
 			
-			
 		}
 		public static void method1(int a[], int b[])
 		{
