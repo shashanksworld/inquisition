@@ -9,7 +9,7 @@ public class Fibonacci_I {
 		{
 				BigInteger a=new BigInteger("0");
 				BigInteger b=new BigInteger("1");
-				double n=10;
+				double n=6;
 				System.out.print(a+" "+b);
 				compute(a,b,n);
 		}

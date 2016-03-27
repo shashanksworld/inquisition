@@ -11,4 +11,10 @@ public class Node {
 		this.next=null;
 		
 	}
+	public Node(int data,Node n)
+	{
+		this.data=data;
+		this.next=n;
+		
+	}
 }
